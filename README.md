@@ -152,6 +152,7 @@ Quantisierung ist ein Verfahren, um die Speicher- und Rechenanforderungen eines 
 ### **Zusammenfassung**
 - **Für Anfänger und unkomplizierte Nutzung**: **GGUF** oder **BitsAndBytes**.
 - **Für optimierte Performance auf moderner Hardware**: **FP8 W8A8** oder **AutoAWQ**.
+  - Die RTX 4090 unterstützt keine FP8 nativ (nur neuere GPUs wie H100). Daher ist FP8 für dich keine Option. 
 - **Wenn Speicher im Fokus steht**: **INT8 W8A8** oder FP8-KV-Cache-Methoden.
 
 Die Wahl hängt von deiner Hardware und deinen Anforderungen an Speicher und Genauigkeit ab!
