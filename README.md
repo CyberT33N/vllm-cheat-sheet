@@ -7,6 +7,8 @@
 <br><br>
 
 ## Ubuntu
+- https://github.com/CyberT33N/uv-cheat-sheet
+  
 ```shell
 uv venv myenv --python 3.12 --seed
 source myenv/bin/activate
